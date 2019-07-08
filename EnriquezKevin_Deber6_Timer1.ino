@@ -78,7 +78,7 @@ void conteo () {
     case 1 : 
     digitalWrite (sensor2,HIGH) ;
     delay (2000) ;
-    tone (9, 3000, 1000) ;
+    tone (10, 3000, 1000) ;
     digitalWrite (sensor2,LOW) ;
     delay (1000)  ;    
     break;
@@ -91,14 +91,14 @@ void conteo () {
     case 3 :
     digitalWrite (sensor4,HIGH) ;
     delay (2000) ;
-    tone (9, 3000, 1000) ;
+    tone (11, 3000, 1000) ;
     digitalWrite (sensor4,LOW) ;
     delay (1000)  ;    
     break ;
     case 4 :
     digitalWrite (sensor5,HIGH) ;
     delay (2000) ;
-    tone (9, 3000, 1000) ;
+    tone (12, 3000, 1000) ;
     digitalWrite (sensor5,LOW) ;
     delay (1000)  ;    
     break ;
